@@ -3,8 +3,8 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer class="site-footer">
-      <div class="social-links">
+    <footer className="site-footer">
+      <div className="social-links">
         <a href="link" target="_blank">
           Twitter
         </a>
@@ -16,7 +16,7 @@ const Footer = () => {
         </a>
       </div>
 
-      <div class="contact-info">
+      <div className="contact-info">
         <p>Contact Us:</p>
         <p>Email: email id</p>
         <p>Phone: 1234567890</p>

@@ -2,8 +2,8 @@ import React from "react";
 
 const AboutSideKick = () => {
   return (
-    <div class="about-sidekick">
-      <section class="mission-section">
+    <div className="about-sidekick">
+      <section className="mission-section">
         <h2>Our Mission</h2>
         <p>
           Side Kick a digital software (guide) that helps you to communicate

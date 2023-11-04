@@ -1,14 +1,15 @@
 import React from "react";
 import "./CommonDisabilitiesSection.css";
+import disabilityIcon from "../assets/images/muscular-dystrophy.jpg";
 
 const CommonDisabilitiesSection = () => {
   const commonDisabilities = [
-    { id: 1, title: "Disability 1", image: "url_to_image_1" },
-    { id: 2, title: "Disability 2", image: "url_to_image_2" },
-    { id: 3, title: "Disability 3", image: "url_to_image_3" },
-    { id: 4, title: "Disability 4", image: "url_to_image_4" },
-    { id: 5, title: "Disability 5", image: "url_to_image_5" },
-    { id: 6, title: "Disability 6", image: "url_to_image_6" },
+    { id: 1, title: "Muscular Dystrophy", image: disabilityIcon },
+    { id: 2, title: "Disability 2", image: disabilityIcon },
+    { id: 3, title: "Disability 3", image: disabilityIcon },
+    { id: 4, title: "Disability 4", image: disabilityIcon },
+    { id: 5, title: "Disability 5", image: disabilityIcon },
+    { id: 6, title: "Disability 6", image: disabilityIcon },
   ];
 
   const handleCardClick = (id) => {

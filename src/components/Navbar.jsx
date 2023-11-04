@@ -9,19 +9,19 @@ export const Navbar = () => {
         <h1>Side Kick</h1>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/" className="navbar-link">Home</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/about" className="navbar-link">About</Link>
           </li>
           <li>
-            <Link to="/features">Features</Link>
+            <Link to="/features" className="navbar-link">Features</Link>
           </li>
           <li>
-            <Link to="/sradhaa">Sradhaa</Link>
+            <Link to="/sradhaa" className="navbar-link">Sradhaa</Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact" className="navbar-link">Contact</Link>
           </li>
         </ul>
       </nav>

@@ -4,6 +4,9 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer className="site-footer">
+      <div className="contact-info">
+        <p>The Enableist Project by MEC Millennium Fellows Class of 2023</p>
+      </div>
       <div className="social-links">
         <a href="link" target="_blank">
           Twitter
@@ -14,12 +17,6 @@ const Footer = () => {
         <a href="link" target="_blank">
           Instagram
         </a>
-      </div>
-
-      <div className="contact-info">
-        <p>Contact Us:</p>
-        <p>Email: email id</p>
-        <p>Phone: 1234567890</p>
       </div>
     </footer>
   );

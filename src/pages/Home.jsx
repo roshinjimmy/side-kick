@@ -2,6 +2,7 @@ import React, { useState, useEffect }from "react";
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import Footer from "../components/Footer";
+import CommonDisabilitiesSection from "../components/CommonDisabilitiesSection";
 
 const Home = () => {
   const [showFooter, setShowFooter] = useState(false);
@@ -27,6 +28,7 @@ const Home = () => {
     <div>
       <Navbar />
       <HeroSection />
+      <CommonDisabilitiesSection />
       {showFooter && <Footer />}
     </div>
   );

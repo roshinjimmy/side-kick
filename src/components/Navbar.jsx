@@ -1,30 +1,32 @@
 import React from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+import line from "../assets/images/line-1.svg";
 
 export const Navbar = () => {
   return (
-    <div>
-      <nav>
-        <h1>Side Kick</h1>
-        <ul>
-          <li>
-            <Link to="/" className="navbar-link">Home</Link>
-          </li>
-          <li>
-            <Link to="/about" className="navbar-link">About</Link>
-          </li>
-          <li>
-            <Link to="/features" className="navbar-link">Features</Link>
-          </li>
-          <li>
-            <Link to="/sradhaa" className="navbar-link">Sradhaa</Link>
-          </li>
-          <li>
-            <Link to="/contact" className="navbar-link">Contact</Link>
-          </li>
-        </ul>
-      </nav>
+    <div className="landing">
+      <div className="navbar">
+        <div className="div">
+          <Link to="/" className="text-wrapper">
+            Home
+          </Link>
+          <Link to="/" className="text-wrapper">
+            About
+          </Link>
+          <Link to="/" className="text-wrapper">
+            Features
+          </Link>
+          <Link to="/" className="text-wrapper">
+            Sradhaa
+          </Link>
+          <Link to="/" className="text-wrapper">
+            Contact
+          </Link>
+        </div>
+        <div className="text-wrapper-2">SideKick</div>
+        <img className="line" alt="Line" src={line} />
+      </div>
     </div>
   );
 };

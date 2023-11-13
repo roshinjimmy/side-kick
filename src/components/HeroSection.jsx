@@ -18,8 +18,11 @@ const HeroSection = () => {
             alt="Community cuate"
             src={heroImage}
           />
-          <div className="rectangle" />
-          <div className="text-wrapper-3">Learn More.</div>
+          <div className="know-more">
+            <button className="rectangle">
+              <div className="text-wrapper-3">Learn More.</div>
+            </button>
+          </div>
         </div>
       </div>
     </div>

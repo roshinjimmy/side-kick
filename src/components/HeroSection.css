@@ -49,6 +49,7 @@
 .landing .rectangle {
   background-color: var(--yellow);
   border-radius: 5px;
+  border: none;
   height: 60px;
   left: 486px;
   position: absolute;
@@ -61,10 +62,9 @@
   font-family: "Black Mango-Black", Helvetica;
   font-size: 24px;
   font-weight: 900;
-  left: 639px;
   letter-spacing: 0.72px;
+  align-self: center ;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 847px;
 }

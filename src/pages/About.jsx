@@ -1,6 +1,5 @@
 import React from "react";
 import AboutSideKick from "../components/AboutSideKick";
-import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
 const About = () => {
@@ -8,7 +7,6 @@ const About = () => {
     <div>
       <Navbar />
       <AboutSideKick />
-      <Footer />
     </div>
   );
 };

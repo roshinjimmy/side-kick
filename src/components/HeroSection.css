@@ -1,20 +1,70 @@
-.hero-section {
-  margin-top: 100px;
-  margin-bottom: auto;
+.landing {
+  background-color: #fdfeff;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  position: relative;
-  padding-bottom: 100px;
-}
-
-.hero-section h1{
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-.hero-section img {
   width: 100%;
-  height: auto;
+}
+
+.landing .overlap-group-wrapper {
+  background-color: var(--white);
+  height: 1024px;
+  width: 1440px;
+}
+
+.landing .overlap-group {
+  height: 1024px;
+  position: relative;
+}
+
+.landing .vector {
+  height: 1024px;
+  left: 616px;
+  position: absolute;
+  top: 0;
+  width: 824px;
+}
+
+.landing .empowering {
+  color: var(--blue);
+  font-family: "Black Mango-Black", Helvetica;
+  font-size: 48px;
+  font-weight: 900;
+  left: 312px;
+  letter-spacing: 1.44px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 671px;
+}
+
+.landing .community-cuate {
+  height: 571px;
+  left: 292px;
+  position: absolute;
+  top: 126px;
+  width: 857px;
+}
+
+.landing .rectangle {
+  background-color: var(--yellow);
+  border-radius: 5px;
+  height: 60px;
+  left: 486px;
+  position: absolute;
+  top: 836px;
+  width: 467px;
+}
+
+.landing .text-wrapper-3 {
+  color: #000000;
+  font-family: "Black Mango-Black", Helvetica;
+  font-size: 24px;
+  font-weight: 900;
+  left: 639px;
+  letter-spacing: 0.72px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 847px;
 }

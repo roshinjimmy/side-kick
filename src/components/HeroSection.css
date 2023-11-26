@@ -2,7 +2,7 @@
   background-color: #fdfeff;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: end;
   width: 100%;
 }
 
@@ -30,7 +30,7 @@
   font-family: "Black Mango-Black", Helvetica;
   font-size: 48px;
   font-weight: 900;
-  left: 312px;
+  left: 100px;
   letter-spacing: 1.44px;
   line-height: normal;
   position: absolute;
@@ -40,7 +40,7 @@
 
 .landing .community-cuate {
   height: 571px;
-  left: 292px;
+  left: 99px;
   position: absolute;
   top: 126px;
   width: 857px;
@@ -51,7 +51,7 @@
   border-radius: 5px;
   border: none;
   height: 60px;
-  left: 486px;
+  left: 255px;
   position: absolute;
   top: 836px;
   width: 467px;
@@ -67,4 +67,5 @@
   line-height: normal;
   position: absolute;
   text-align: center;
+  margin: -15px 0px 0px 142px;
 }
